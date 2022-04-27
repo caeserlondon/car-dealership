@@ -184,3 +184,76 @@ nav {
 }
 
 /* ##  end of the services ## */
+
+/* ### our latest stock ### */
+.latest-stocks {
+	padding: 0 0 100px 0;
+	background: #c09323b0;
+}
+.title h2 {
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(43, 43, 2, 0.998);
+}
+.title-underline {
+	background: rgba(43, 43, 2, 0.998);
+	width: 120px;
+	height: 4px;
+	margin: 10px auto;
+}
+
+.title {
+	padding: 50px 0;
+}
+
+.latest-stock {
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+	overflow: hidden;
+}
+
+.latest-stocks img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	transition: opacity 1s ease, transform 2s ease;
+}
+
+.latest-stocks img:hover {
+	opacity: 0.75;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+/* using the flex  */
+/* 
+@media screen and (min-width: 576px) {
+	.latest-stocks-center {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.latest-stock {
+		flex: 0 0 calc(50%);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.latest-stock {
+		flex: 0 0 calc(33.3333%);
+	}
+} */
+
+/* using the grid  */
+@media screen and (min-width: 576px) {
+	.latest-stocks-center {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media screen and (min-width: 992px) {
+	.latest-stocks-center {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* ### end of our latest stock ### */
