@@ -142,3 +142,45 @@ nav {
 		padding-left: 30px;
 	}
 }
+
+/* ##  the services ## */
+
+.services {
+	min-height: 80vh;
+	background: url(./assets/dashboard.jpg) center/cover fixed no-repeat;
+	display: flex;
+	align-items: center;
+}
+.service {
+	color: silver;
+	display: flex;
+	margin: 40px;
+}
+.service-icon {
+	align-self: center;
+	font-size: 50px;
+	margin-right: 20px;
+	padding: 20px;
+	border: 3px solid white;
+	border-radius: 50%;
+}
+.service-text p {
+	line-height: 2;
+	margin-top: 5px;
+}
+@media screen and (min-width: 576px) {
+	.services-center {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 776px) {
+	.services-center {
+		width: 50%;
+	}
+	.service-text p {
+		width: 50%;
+	}
+}
+
+/* ##  end of the services ## */
