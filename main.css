@@ -51,3 +51,74 @@ nav ul a:hover {
 	border: 2px solid silver;
 	align-self: center;
 }
+
+header {
+	min-height: 100vh;
+
+	background: linear-gradient(rgba(39, 37, 2, 0.472), rgba(42, 36, 2, 0.485)),
+		url(./assets/workshop.webp) center/cover fixed no-repeat;
+
+	/* background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; */
+
+	display: flex;
+	flex-direction: column;
+}
+nav {
+	flex: 0 0 auto;
+}
+.logo-lg {
+	width: 300px;
+	padding: 10px;
+	align-self: center;
+}
+
+.banner {
+	flex: 1 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.banner h1 {
+	font-size: 2.5em;
+	color: white;
+	/* offset-x | offset-y | blur-radius | color */
+	text-shadow: 1px 1px 2px rgb(194, 26, 227);
+	text-transform: capitalize;
+}
+.banner h3 {
+	font-size: 1.5em;
+	color: white;
+	/* offset-x | offset-y | blur-radius | color */
+	text-shadow: 1px 1px 2px rgb(206, 4, 246);
+	text-transform: uppercase;
+}
+
+.banner-icons {
+	padding: 20px;
+}
+
+.banner-icons a {
+	display: inline-block;
+	font-size: 30px;
+	background: #c09323b0;
+	padding: 5px 10px;
+	margin: 0 10px;
+	border-radius: 50%;
+	color: rgba(43, 43, 2, 0.998);
+	transition: color 0.5s ease, transform 1s ease;
+}
+
+.banner-icons a:hover {
+	color: white;
+	transform: translateY(-10px);
+}
+nav {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
