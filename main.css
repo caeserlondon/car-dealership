@@ -1,4 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
-	font-family: "Great Vibes", cursive;
-	font-family: "MonteCarlo", cursive;
+	font-family: "Charm", cursive;
+}
+nav ul {
+	list-style-type: none;
+	display: none;
+}
+nav ul a {
+	display: block;
+	background: #0d1317;
+	padding: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: silver;
+	transition: color 1s ease, background 1s ease, padding 1s ease;
+}
+nav ul a:hover {
+	background: #474747;
+	color: white;
+	padding-left: 30px;
+}
+.nav-container img {
+	width: 100px;
+	padding: 10px;
+	align-self: center;
+}
+
+.nav-container {
+	padding: 0 20px;
+	background-color: #474747;
+	border-bottom: 3px solid silver;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bar {
+	width: 30px;
+	height: 3px;
+	margin: 7px;
+	background: silver;
+}
+.btn {
+	padding: 2px;
+	display: inline-block;
+	border: 2px solid silver;
+	align-self: center;
 }
