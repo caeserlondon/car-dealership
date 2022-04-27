@@ -196,6 +196,12 @@ nav {
 	text-transform: uppercase;
 	color: rgba(43, 43, 2, 0.998);
 }
+.title h3 {
+	font-size: 20px;
+	text-align: center;
+	text-transform: capitalize;
+	color: rgba(43, 43, 2, 0.998);
+}
 .title-underline {
 	background: rgba(43, 43, 2, 0.998);
 	width: 120px;
