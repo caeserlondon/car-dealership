@@ -292,7 +292,8 @@ nav {
 
 .about-card p {
 	line-height: 2;
-	font-size: 18px;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 @media screen and (min-width: 776px) {
@@ -315,3 +316,110 @@ nav {
 }
 
 /* #### about us section ####  */
+
+/* ##### filler section #####  */
+
+.filler {
+	min-height: 60vh;
+	background: url(./assets/filler.jpg) center/cover fixed no-repeat;
+}
+
+/* ##### end of filler section #####  */
+
+/* ####### contact us #########  */
+
+.contact {
+	min-height: 80vh;
+	background: url(./assets/about-us.jpeg) center/cover fixed no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-card {
+	flex: 0 0 80%;
+	background: #c09423b1;
+
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	flex: 0 0 60%;
+	display: flex;
+	flex-direction: column;
+}
+form input {
+	margin: 10px 0;
+}
+
+form h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+form input,
+form textarea {
+	padding: 5px;
+	border: 3px solid #f4b20c;
+}
+
+input::placeholder,
+textarea::placeholder {
+	text-transform: capitalize;
+}
+
+.form-btn {
+	margin: 20px;
+	font-size: 20px;
+	font-family: "Charm", cursive;
+	text-transform: uppercase;
+	border-radius: 40px;
+	padding: 5px;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+}
+
+.form-btn:hover {
+	background: #f8ca55;
+}
+
+/* ####### end of contact us #########  */
+
+/* ######### footer ########  */
+
+footer {
+	background: #9e7819dd;
+	padding: 60px 0;
+	text-align: center;
+}
+
+.footer-icons {
+	padding: 20px;
+	cursor: pointer;
+}
+
+.footer-icons a {
+	display: inline-block;
+	font-size: 30px;
+	background: #d59c0db0;
+	padding: 5px 10px;
+	margin: 0 10px;
+	border-radius: 50%;
+	color: rgba(43, 43, 2, 0.998);
+	transition: color 0.5s ease, transform 1s ease;
+}
+
+.footer-icons a:hover {
+	color: white;
+	transform: translateY(-10px);
+}
+
+footer p {
+	line-height: 2;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* ######### end of footer ########  */
