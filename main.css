@@ -188,7 +188,7 @@ nav {
 /* ### our latest stock ### */
 .latest-stocks {
 	padding: 0 0 100px 0;
-	background: #c09323b0;
+	background: #9e7819dd;
 }
 .title h2 {
 	font-size: 30px;
@@ -263,3 +263,55 @@ nav {
 }
 
 /* ### end of our latest stock ### */
+
+/* #### about us section ####  */
+
+.about {
+	min-height: 100vh;
+	padding: 100px 0;
+	background: url(./assets/about-us.jpeg) center/cover fixed no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-card {
+	background: #c09423b1;
+	text-align: center;
+	padding: 60px 40px;
+}
+.about-card h3 {
+	font-size: 30px;
+	text-transform: capitalize;
+}
+
+.about-card .fa-shop {
+	font-size: 25px;
+	margin: 20px 0;
+}
+
+.about-card p {
+	line-height: 2;
+	font-size: 18px;
+}
+
+@media screen and (min-width: 776px) {
+	.about-card {
+		max-width: 50%;
+		border-radius: 30px;
+	}
+
+	.about-card h3 {
+		font-size: 40px;
+	}
+	.about-card .fa-shop {
+		font-size: 30px;
+	}
+
+	.about-card p {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+}
+
+/* #### about us section ####  */
