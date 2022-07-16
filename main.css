@@ -147,7 +147,7 @@ nav {
 
 .services {
 	min-height: 80vh;
-	background: url(./assets/dashboard.jpg) center/cover fixed no-repeat;
+	background: url(./assets/dashboard.webp) center/cover fixed no-repeat;
 	display: flex;
 	align-items: center;
 }
@@ -278,7 +278,7 @@ nav {
 .about-card {
 	background: #c09423b1;
 	text-align: center;
-	padding: 60px 40px;
+	padding: 60px 10px;
 }
 .about-card h3 {
 	font-size: 30px;
@@ -298,13 +298,13 @@ nav {
 
 .about-card p {
 	line-height: 2;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 @media screen and (min-width: 776px) {
 	.about-card {
-		max-width: 50%;
+		max-width: 70%;
 		border-radius: 30px;
 	}
 
