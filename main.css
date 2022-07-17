@@ -7,6 +7,22 @@
 body {
 	font-family: 'Charm', cursive;
 }
+
+*::-webkit-scrollbar {
+	width: 9px;
+	height: 1px;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: black;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #9e7819dd;
+	border-radius: 9px;
+	opacity: 0.1;
+}
+
 nav ul {
 	list-style-type: none;
 	display: none;
