@@ -6,16 +6,20 @@
 
 https://caesers-classic-cars.netlify.app/
 
-#### Mobile
-
-![screeshot 3](./screen-shots/Screenshot%203.webp)![screeshot 4](./screen-shots/Screenshot%204.webp)
-
 #### Web
 
-![screeshot 1](./screen-shots/Screenshot%201.webp)![screeshot 2](./screen-shots/Screenshot%202.webp)
+![screeshot 1](./screen-shots/Screenshot1.jpg)
+
+![screeshot 2](./screen-shots/Screenshot2.jpg)
+
+#### Mobile
+
+![screeshot 3](./screen-shots/Screenshot3.jpg)
+
+![screeshot 4](./screen-shots/Screenshot4.jpg)
 
 ---
 
 ##### Tested for speed and performance
 
-![screeshot 5](./screen-shots/Screenshot%205.webp)
+![screeshot 5](./screen-shots/Screenshot5.webp)
