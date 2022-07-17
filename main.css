@@ -269,7 +269,7 @@ nav {
 .about {
 	min-height: 100vh;
 	padding: 100px 0;
-	background: url(./assets/about-us.jpeg) center/cover fixed no-repeat;
+	background: url(./assets/about-us.webp) center/cover fixed no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -327,7 +327,7 @@ nav {
 
 .filler {
 	min-height: 60vh;
-	background: url(./assets/filler.jpg) center/cover fixed no-repeat;
+	background: url(./assets/filler.webp) center/cover fixed no-repeat;
 }
 
 /* ##### end of filler section #####  */
@@ -336,7 +336,7 @@ nav {
 
 .contact {
 	min-height: 80vh;
-	background: url(./assets/about-us.jpeg) center/cover fixed no-repeat;
+	background: url(./assets/about-us.webp) center/cover fixed no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;
