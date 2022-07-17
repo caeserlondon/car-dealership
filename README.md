@@ -8,15 +8,15 @@ https://caesers-classic-cars.netlify.app/
 
 #### Web
 
-![screeshot 1](./screen-shots/Screenshot1.jpg)
+![screenshot 1](./screen-shots/Screenshot1.jpg)
 
-![screeshot 2](./screen-shots/Screenshot2.jpg)
+![screenshot 2](./screen-shots/Screenshot2.jpg)
 
 #### Mobile
 
-![screeshot 3](./screen-shots/Screenshot3.jpg)
+![screenshot 3](./screen-shots/Screenshot3.jpg)
 
-![screeshot 4](./screen-shots/Screenshot4.jpg)
+![screenshot 4](./screen-shots/Screenshot4.jpg)
 
 ---
 
